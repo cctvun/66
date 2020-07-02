@@ -16,7 +16,7 @@ while guess != secret and tries < 6:
     elif guess > secret:
         print "高啦,再低点儿!"
 
-    tries = tries + 1                          
+    tries = tries + 1            # 猜的次数递增              
 
 #最终显示结果
 if guess == secret:                           \
